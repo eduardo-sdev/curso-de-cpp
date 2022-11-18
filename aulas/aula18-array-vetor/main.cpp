@@ -12,7 +12,7 @@ int main() {
     /* vetor[3]=50; */
     /* vetor[4]=60; */
 
-    for(int i=0;i<sixeof(vetor)/4;i++){
+    for(int i=0;i<sizeof(vetor)/4;i++){
         cout << vetor[i] << "\n";
     }
 
